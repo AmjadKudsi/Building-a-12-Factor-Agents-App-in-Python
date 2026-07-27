@@ -1,0 +1,12 @@
+Fill in the blanks
+Many teams building AI agents quickly reach a point where their systems work well in testing but fail in real-world use. This is called the 70-80% [reliability] wall.
+
+One common problem is making changes to prompts without any [version] control, which makes it hard to track what changed or roll back mistakes.
+
+Unlike traditional software, LLM systems have a fixed [context] window, so you must carefully choose what information to include in each model call.
+
+The 12-Factor Agents methodology was inspired by the 12-Factor [App], which helped teams build reliable cloud-native applications.
+
+In practice, successful production agents combine traditional software engineering with strategic use of [LLMs] at key decision points.
+
+The lesson explains that "agents are just [software]", meaning that reliable agents require the same engineering discipline as any other system.
