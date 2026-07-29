@@ -1,0 +1,29 @@
+Question 1: What is the '70-80% reliability wall' in building Al agents?
+A security limit set by most frameworks
+> A point where further improvements in reliability become much harder to achieve
+The maximum accuracy any LLM can reach
+A limit on the number of users an agent can support
+
+Question 2: Which of the following are common failure patterns for Al agents in production?
+> Forgetting important context from earlier in the conversation
+> Failing to match user descriptions to order history
+Always responding with perfect accuracy
+> Missing the user's real intent in ambiguous queries
+
+Question 3: Why is version control important for managing prompts in production Al agents?
+It is required by all LLM providers
+It makes prompts run faster
+> It allows you to track changes, test, and safely roll back if needed
+It increases the size of the context window
+
+Question 4: What is a key challenge with the context window in LLM-powered agents?
+> It has a fixed size, so you must decide what information to include or drop
+It is only used for storing prompts
+It can store unlimited information
+It automatically summarizes old messages
+
+Question 5: Which of the following are unique challenges of LL systems compared to traditional software?
+Unlimited memory for conversation history
+> Context windows are a hard constraint
+> Non-determinism in outputs
+> Token costs are operational costs
