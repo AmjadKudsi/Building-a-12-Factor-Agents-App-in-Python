@@ -1,0 +1,8 @@
+Fill in the blanks
+Factor 1: The LLM should translate natural language into predictable, structured outputs like [JSON], so your code can [parse] and execute actions without guessing intent.
+
+Factor 2: You should fully [own] your prompts by writing, versioning, and [testing] them as part of your codebase, instead of relying only on framework defaults.
+
+Factor 3: Actively design your [context] window by selecting, summarizing, and [controlling] what information is included, making sure every token adds value.
+
+Factor 4: Tool calls are just structured [outputs] that follow a schema, letting your code safely [validate] and execute the requested actions.
