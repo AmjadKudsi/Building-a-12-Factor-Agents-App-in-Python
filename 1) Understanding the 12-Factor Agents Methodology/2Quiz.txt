@@ -1,0 +1,24 @@
+Question 1: Why should an LLM agent produce structured outputs (like JSON) instead of free-form text?
+Free-form text is not supported by LLMs.
+> Structured outputs are easier for your code to parse and execute.
+Structured outputs make the agent sound more polite.
+Free-form text is always less reliable.
+
+Question 2: Which of the following are good practices for managing the context window in LLM agents?
+>  the prompt with clear sections or bullet points.
+> Summarize or compress long conversation histories.
+> Inject necessary data (like order details) when needed.
+> Select only relevant context for each step.
+Include the entire conversation history every time.
+
+Question 3: What does it mean to 'own your prompts' when building LLM agents?
+> Writing, versioning, and testing your prompts as part of your codebase.
+Changing prompts directly in production without review.
+Using only default prompts provided by the LLM provider.
+Letting the framework manage all prompts automatically.
+
+Question 4: According to Factor 4, what is the correct way to think about 'tool calls' in LLM agents?
+Tool calls are free-form text instructions for the user.
+Tool calls are special commands that the LLM executes directly.
+> Tool calls are just structured outputs (like JSON) that your code executes.
+Tool calls are only available in some LLMs.
