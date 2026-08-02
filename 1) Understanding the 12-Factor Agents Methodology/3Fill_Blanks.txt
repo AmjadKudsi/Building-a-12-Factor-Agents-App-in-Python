@@ -1,0 +1,8 @@
+Fill in the blanks
+Factor 5: To avoid confusion and errors, always keep a single source of truth by unifying the agent's execution state with your application's business state. This means both the agent and the application use the same [state], which prevents [divergence] and allows for easy [recovery] when something goes wrong.
+
+Factor 6: Agents should be controllable through simple APIs. Instead of running as one long process, the agent should be able to start, [pause], and resume at clear checkpoints. This design improves [resilience], saves resources, and makes the system more [flexible].
+
+Factor 7: Human interaction should be a first-class tool. When the agent needs help or approval, it should use an explicit [ask_human] call, making escalation [structured] and easy to track. Every request and response should be recorded in the unified [state] for audit purposes.
+
+Factor 8: Keep control of the agent's reasoning loop in your own code. Your software should [orchestrate] the loop, enforce business [rules], and set clear [termination] conditions to ensure the agent behaves safely and predictably.
