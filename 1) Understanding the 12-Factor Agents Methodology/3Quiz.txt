@@ -1,0 +1,30 @@
+Question 1: Why is it important to unify the agent's execution state with your application's business state?
+It allows the agent to use more tools.
+It prevents the agent from needing human input.
+> It ensures there is only one source of truth, making recovery, debugging, and auditing possible.
+It makes the agent run faster.
+
+Question 2: Which of the following should be included in a unified state representation?
+> Current step in the agent's workflow
+Agent's internal memory only
+> Human approval decisions
+> Pending tool calls
+> Order or transaction details
+
+Question 3: What is a key benefit of designing your agent with explicit pause and resume checkpoints?
+It lets the agent ignore external events.
+> It allows the agent to handle long-running or asynchronous tasks without losing progress.
+It makes the agent finish all tasks in one go.
+It removes the need for persistent storage.
+
+Question 4: What is the main purpose of the 'ask_human' tool pattern?
+> To allow the agent to escalate for help, clarification, or approval in a structured way
+To speed up the agent's workflow
+To store agent logs
+To let the agent run without any human involvement
+
+Question 5: According to Factor 8, who should control the agent's reasoning loop and decision to continue, escalate, or stop?
+The agent framework
+> Your application code
+The end user
+The LLM itself
