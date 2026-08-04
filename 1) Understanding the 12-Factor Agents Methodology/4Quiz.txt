@@ -1,0 +1,23 @@
+Question 1: Why should error information be fed back into the agent's context window?
+To hide errors from users
+To reset the agent's state
+To make the prompt larger for the LLM
+> So the agent can reason about failures and adjust its next steps
+
+Question 2: Which of the following are benefits of using small, focused agents instead of a single large agent?
+> Easier to test each agent in isolation
+> Faster responses and lower costs
+All agents must be updated together for any change
+> Lower complexity and higher reliability
+
+Question 3: What is the main purpose of making an agent channel-agnostic?
+To store user data inside the agent
+To make the agent only work in web chat
+> To allow the agent to be triggered from multiple interfaces using adapters
+To increase the number of tools the agent uses
+
+Question 4: In a stateless agent design, where is the agent's state stored?
+> Externally, such as in a database
+In the user's browser
+Inside the agent's memory
+In the channel adapter
