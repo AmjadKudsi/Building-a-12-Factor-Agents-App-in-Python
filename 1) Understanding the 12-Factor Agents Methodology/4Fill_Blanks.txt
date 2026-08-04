@@ -1,0 +1,8 @@
+Fill in the blanks
+Factor 9: When an agent operation fails, treat errors as valuable [feedback] that should flow back into the agent's [context] window. This allows the agent to [adapt] its next steps and self-correct.
+
+Factor 10: Instead of one large agent, build multiple [small], focused agents. This keeps [complexity] low, makes testing easier, and improves [reliability].
+
+Factor 11: Make your agent channel-agnostic by decoupling logic from [presentation]. The agent should receive and return [structured] data, while thin adapters handle [translation] for each interface.
+
+Factor 12: Design the agent as a [pure] function that takes current [state] and input, then returns the next action and updated [state].
