@@ -1,0 +1,2 @@
+# Building a 12-Factor Agents App in Python
+A hands-on implementation of the **12-Factor Agents** methodology, exploring how production-ready AI agents can be designed with reliable tool execution, controlled context management, stateless workflows, human-in-the-loop interaction, persistent state, and service-based orchestration. This repository documents the code and execution results behind building scalable, maintainable agentic systems with an engineering-first approach.
