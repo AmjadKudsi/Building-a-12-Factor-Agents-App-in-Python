@@ -1,0 +1,198 @@
+{
+  "id": "0a2e826a-9ed9-4de3-8bd5-b8746f06183e",
+  "steps": 3,
+  "status": "max_steps_reached",
+  "context": [
+    {
+      "role": "user",
+      "content": "Solve the root of this equation: x^2 - 5x + 6 = 0"
+    },
+    {
+      "type": "function_call",
+      "name": "power",
+      "arguments": "{\"base\": -5, \"exponent\": 2}",
+      "call_id": "call_UqnwVuXChAssERJqFDvMhm9h"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_UqnwVuXChAssERJqFDvMhm9h",
+      "output": "{\"result\": 25}"
+    },
+    {
+      "type": "function_call",
+      "name": "multiply_numbers",
+      "arguments": "{\"a\": 4, \"b\": 1}",
+      "call_id": "call_aArDXT17gRJeNTYB6vDwcg1o"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_aArDXT17gRJeNTYB6vDwcg1o",
+      "output": "{\"result\": 4}"
+    },
+    {
+      "type": "function_call",
+      "name": "power",
+      "arguments": "{\"base\": -5, \"exponent\": 2}",
+      "call_id": "call_UTeAIiqxP8CjRqyvhp5WiAiB"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_UTeAIiqxP8CjRqyvhp5WiAiB",
+      "output": "{\"result\": 25}"
+    },
+    {
+      "type": "function_call",
+      "name": "multiply_numbers",
+      "arguments": "{\"a\": 4, \"b\": 6}",
+      "call_id": "call_tjmTMxciS7z7aCvVpJn7qNqI"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_tjmTMxciS7z7aCvVpJn7qNqI",
+      "output": "{\"result\": 24}"
+    }
+  ],
+  "pending_tool_calls": [
+    {
+      "name": "subtract_numbers",
+      "arguments": {
+        "a": 25,
+        "b": 24
+      },
+      "call_id": "call_Fja6gpspkQr7KcakJLKqIbcI",
+      "type": "function_call"
+    }
+  ],
+  "error": null,
+  "final_answer": null
+}
+{
+  "id": "0a2e826a-9ed9-4de3-8bd5-b8746f06183e",
+  "steps": 8,
+  "status": "complete",
+  "context": [
+    {
+      "role": "user",
+      "content": "Solve the root of this equation: x^2 - 5x + 6 = 0"
+    },
+    {
+      "type": "function_call",
+      "name": "power",
+      "arguments": "{\"base\": -5, \"exponent\": 2}",
+      "call_id": "call_UqnwVuXChAssERJqFDvMhm9h"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_UqnwVuXChAssERJqFDvMhm9h",
+      "output": "{\"result\": 25}"
+    },
+    {
+      "type": "function_call",
+      "name": "multiply_numbers",
+      "arguments": "{\"a\": 4, \"b\": 1}",
+      "call_id": "call_aArDXT17gRJeNTYB6vDwcg1o"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_aArDXT17gRJeNTYB6vDwcg1o",
+      "output": "{\"result\": 4}"
+    },
+    {
+      "type": "function_call",
+      "name": "power",
+      "arguments": "{\"base\": -5, \"exponent\": 2}",
+      "call_id": "call_UTeAIiqxP8CjRqyvhp5WiAiB"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_UTeAIiqxP8CjRqyvhp5WiAiB",
+      "output": "{\"result\": 25}"
+    },
+    {
+      "type": "function_call",
+      "name": "multiply_numbers",
+      "arguments": "{\"a\": 4, \"b\": 6}",
+      "call_id": "call_tjmTMxciS7z7aCvVpJn7qNqI"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_tjmTMxciS7z7aCvVpJn7qNqI",
+      "output": "{\"result\": 24}"
+    },
+    {
+      "type": "function_call",
+      "name": "subtract_numbers",
+      "arguments": "{\"a\": 25, \"b\": 24}",
+      "call_id": "call_Fja6gpspkQr7KcakJLKqIbcI"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_Fja6gpspkQr7KcakJLKqIbcI",
+      "output": "{\"result\": 1}"
+    },
+    {
+      "type": "function_call",
+      "name": "square_root",
+      "arguments": "{\"x\": 1}",
+      "call_id": "call_ssGhWUTfz8gHqCgiVzhUNWRX"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_ssGhWUTfz8gHqCgiVzhUNWRX",
+      "output": "{\"result\": 1.0}"
+    },
+    {
+      "type": "function_call",
+      "name": "sum_numbers",
+      "arguments": "{\"a\": 5, \"b\": 1}",
+      "call_id": "call_idkqTCbhH3hi2tdRVJkYihiT"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_idkqTCbhH3hi2tdRVJkYihiT",
+      "output": "{\"result\": 6}"
+    },
+    {
+      "type": "function_call",
+      "name": "subtract_numbers",
+      "arguments": "{\"a\": 5, \"b\": 1}",
+      "call_id": "call_7ulZVHOtVC5OFs0HaNOo8Nla"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_7ulZVHOtVC5OFs0HaNOo8Nla",
+      "output": "{\"result\": 4}"
+    },
+    {
+      "type": "function_call",
+      "name": "divide_numbers",
+      "arguments": "{\"a\": 6, \"b\": 2}",
+      "call_id": "call_9EwFZLAQhMNPFrdb3uzIifaZ"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_9EwFZLAQhMNPFrdb3uzIifaZ",
+      "output": "{\"result\": 3.0}"
+    },
+    {
+      "type": "function_call",
+      "name": "divide_numbers",
+      "arguments": "{\"a\": 4, \"b\": 2}",
+      "call_id": "call_oCyipFKS4mop4v9A88BWX03W"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_oCyipFKS4mop4v9A88BWX03W",
+      "output": "{\"result\": 2.0}"
+    },
+    {
+      "type": "function_call",
+      "name": "final_answer",
+      "arguments": "{\"answer\": \"The roots are x = 2 and x = 3.\"}",
+      "call_id": "call_wZL9yFSpWIlvbeTPc3lsrBFH"
+    }
+  ],
+  "pending_tool_calls": [],
+  "error": null,
+  "final_answer": "The roots are x = 2 and x = 3."
+}
