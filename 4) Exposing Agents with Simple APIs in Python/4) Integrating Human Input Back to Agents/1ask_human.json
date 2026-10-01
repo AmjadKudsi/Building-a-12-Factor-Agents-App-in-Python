@@ -1,0 +1,19 @@
+{
+  "type": "function",
+  "name": "ask_human",
+  "description": "Ask the human for missing information needed to continue the task.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "question": {
+        "type": "string",
+        "description": "The question to ask the human."
+      }
+    },
+    "required": [
+      "question"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}
